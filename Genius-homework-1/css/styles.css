@@ -1,0 +1,125 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url('../fonts/roboto-v30-latin-300italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+:root {
+  --color-dark-blue: #011c44;
+  --color-light-blue: #2b7fff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #747272;
+}
+/*Base*/
+body {
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Button*/
+.button {
+  color: var (--color-white);
+  background-color: var(--color-light-blue);
+  border: 2px solid var(--color-light-blue);
+  border-radius: 32px;
+}
+
+.below-botton {
+  color: #4a4a4a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.button:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+/*Link*/
+.link {
+  color: var(--color-dark-blue);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-light-blue);
+}
+
+.adress-link {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.adress-link:hover {
+  color: var(--color-light-blue);
+}
+
+/*Hero section*/
+.hero-title {
+  color: var(--color-light-blue);
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  font-size: 140px;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--color-black);
+  font-family: 'Play';
+  text-align: left;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.span-h2 {
+  color: var(--color-light-blue);
+}
+
+.traditions-text {
+  color: var(--color-dark-blue);
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/*Footer section*/
+.footer {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.link-footer {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  color: var(--color-light-blue);
+}
+
+.adress-copyright {
+  color: var(--color-gray);
+  font-size: 13px;
+}
